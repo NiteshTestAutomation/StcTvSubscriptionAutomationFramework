@@ -14,12 +14,15 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.stctvsubscription.baseClass.BaseClass;
 import com.stctvsubscription.utils.ExtentReport;
 
 public class ListenerClass implements ITestListener	{
 	
 	ExtentReports extent ;
 	ExtentTest extentTest;
+	WebDriver driver;
+	
 	@Override
 	public void onStart(ITestContext context) {
 	
@@ -42,7 +45,6 @@ public class ListenerClass implements ITestListener	{
 		
 		extentTest.log(Status.INFO,result.getThrowable());
 		extentTest.log(Status.PASS, testName+ " Testcase Successfully Executed");
-		
 	}
 
 	@Override
@@ -50,31 +52,11 @@ public class ListenerClass implements ITestListener	{
 		
 		String testName = result.getName();
 //		System.out.println(testName + "Testcase Failure");
-		WebDriver driver= null;
-		
-		try {
-			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
-		} catch (Exception e)
-	    {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		
-		String destinationScreenshotPath = System.getProperty("user.dir")+"\\screenshot\\"+testName+".png";
-	
-		try {
-			FileHandler.copy(screenshot, new File(destinationScreenshotPath));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 		
 		//attaching screenshot to report
-		extentTest.addScreenCaptureFromPath(destinationScreenshotPath);
+		//extentTest.addScreenCaptureFromPath(destinationScreenshotPath);
 		extentTest.log(Status.INFO,result.getThrowable());
 		extentTest.log(Status.FAIL,testName+" got failed");
-		
 	}
 
 	@Override
@@ -93,6 +75,7 @@ public class ListenerClass implements ITestListener	{
 		extent.flush();
 		
 	}
-
+	
 	
 }
+	

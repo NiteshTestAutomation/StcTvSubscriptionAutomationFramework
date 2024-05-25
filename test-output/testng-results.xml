@@ -1,93 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Changing country to Bahrain from header]]>
+    </line>
+    <line>
+      <![CDATA[Assert on Subscription Page]]>
+    </line>
+    <line>
+      <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+    </line>
+    <line>
+      <![CDATA[Assert Subscription Type<b>: LITE</b> and Subcription Price<b>: 2 BHD/month</b> matches testdata]]>
+    </line>
+    <line>
+      <![CDATA[Changing country to Bahrain from header]]>
+    </line>
+    <line>
+      <![CDATA[Assert on Subscription Page]]>
+    </line>
+    <line>
+      <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+    </line>
+    <line>
+      <![CDATA[Assert Subscription Type<b>: CLASSIC</b> and Subcription Price<b>: 3 BHD/month</b> matches testdata]]>
+    </line>
+    <line>
+      <![CDATA[Changing country to Bahrain from header]]>
+    </line>
+    <line>
+      <![CDATA[Assert on Subscription Page]]>
+    </line>
+    <line>
+      <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+    </line>
+    <line>
+      <![CDATA[Assert Subscription Type<b>: PREMIUM</b> and Subcription Price<b>: 6 BHD/month</b> matches testdata]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-05-25T10:28:19 AST" name="Default suite" finished-at="2024-05-25T10:30:42 AST" duration-ms="142827">
+  <suite started-at="2024-05-25T21:45:09 AST" name="Default suite" finished-at="2024-05-25T21:45:23 AST" duration-ms="13370">
     <groups>
     </groups>
-    <test started-at="2024-05-25T10:28:19 AST" name="Default test" finished-at="2024-05-25T10:30:42 AST" duration-ms="142827">
+    <test started-at="2024-05-25T21:45:09 AST" name="Default test" finished-at="2024-05-25T21:45:23 AST" duration-ms="13370">
       <class name="com.stctvsubscription.testcases.SubscriptionTest">
-        <test-method is-config="true" signature="loadConfigPropertiesFile()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:19 AST" name="loadConfigPropertiesFile" finished-at="2024-05-25T10:28:19 AST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="loadConfigPropertiesFile()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:09 AST" name="loadConfigPropertiesFile" finished-at="2024-05-25T21:45:09 AST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfigPropertiesFile -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:20 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:28:24 AST" duration-ms="3836" status="PASS">
+        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:09 AST" name="openSTCWebApplication" finished-at="2024-05-25T21:45:17 AST" depends-on-methods="com.stctvsubscription.baseClass.BaseClass.loadConfigPropertiesFile" duration-ms="7598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:24 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-05-25T10:28:42 AST" duration-ms="18339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LITE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[15 SAR/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:42 AST" name="tearDown" finished-at="2024-05-25T10:28:42 AST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:42 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:28:52 AST" duration-ms="9471" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:52 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-05-25T10:28:57 AST" duration-ms="5151" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLASSIC]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[25 SAR/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:57 AST" name="tearDown" finished-at="2024-05-25T10:28:57 AST" duration-ms="207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:28:57 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:29:05 AST" duration-ms="8347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:05 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-05-25T10:29:10 AST" duration-ms="5191" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PREMIUM]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[60 SAR/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:10 AST" name="tearDown" finished-at="2024-05-25T10:29:11 AST" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:11 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:29:20 AST" duration-ms="8975" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:20 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T10:29:27 AST" duration-ms="6684" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:18 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T21:45:19 AST" duration-ms="1657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,17 +65,21 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Changing country to Bahrain from header]]>
+            </line>
+            <line>
+              <![CDATA[Assert on Subscription Page]]>
+            </line>
+            <line>
+              <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+            </line>
+            <line>
+              <![CDATA[Assert Subscription Type<b>: LITE</b> and Subcription Price<b>: 2 BHD/month</b> matches testdata]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:27 AST" name="tearDown" finished-at="2024-05-25T10:29:27 AST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:27 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:29:34 AST" duration-ms="7457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:34 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T10:29:40 AST" duration-ms="5764" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:19 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T21:45:21 AST" duration-ms="1487" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,17 +93,21 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Changing country to Bahrain from header]]>
+            </line>
+            <line>
+              <![CDATA[Assert on Subscription Page]]>
+            </line>
+            <line>
+              <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+            </line>
+            <line>
+              <![CDATA[Assert Subscription Type<b>: CLASSIC</b> and Subcription Price<b>: 3 BHD/month</b> matches testdata]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:40 AST" name="tearDown" finished-at="2024-05-25T10:29:40 AST" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:40 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:29:48 AST" duration-ms="7627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:48 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T10:29:53 AST" duration-ms="4896" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:21 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-05-25T21:45:22 AST" duration-ms="1479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -149,81 +121,21 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Changing country to Bahrain from header]]>
+            </line>
+            <line>
+              <![CDATA[Assert on Subscription Page]]>
+            </line>
+            <line>
+              <![CDATA[Assert country<b> Bahrain</b> has currency code<b>: BHD</b> and currency name<b>: Bahraini Dinar</b>]]>
+            </line>
+            <line>
+              <![CDATA[Assert Subscription Type<b>: PREMIUM</b> and Subcription Price<b>: 6 BHD/month</b> matches testdata]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:53 AST" name="tearDown" finished-at="2024-05-25T10:29:53 AST" duration-ms="318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:29:53 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:30:01 AST" duration-ms="8070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:01 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-05-25T10:30:08 AST" duration-ms="6595" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LITE]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.2 KWD/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:08 AST" name="tearDown" finished-at="2024-05-25T10:30:08 AST" duration-ms="274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:08 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:30:15 AST" duration-ms="6767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:15 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-05-25T10:30:20 AST" duration-ms="5382" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CLASSIC]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.5 KWD/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:20 AST" name="tearDown" finished-at="2024-05-25T10:30:21 AST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:21 AST" name="openSTCWebApplication" finished-at="2024-05-25T10:30:36 AST" duration-ms="15300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:36 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-05-25T10:30:42 AST" duration-ms="6005" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[PREMIUM]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4.8 KWD/month]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@26794848]" started-at="2024-05-25T10:30:42 AST" name="tearDown" finished-at="2024-05-25T10:30:42 AST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@158a8276]" started-at="2024-05-25T21:45:22 AST" name="tearDown" finished-at="2024-05-25T21:45:23 AST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

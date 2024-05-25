@@ -22,7 +22,7 @@ public class ExtentReport {
 		
 		ExtentReports extentReport = new ExtentReports();	
 			
-		File extentReportFile = new File(System.getProperty("user.dir")+"test-output\\Extent-Report\\extentReport.html");
+		File extentReportFile = new File(System.getProperty("user.dir")+"\\test=output\\Extent-Report\\extentReport.html");
 		
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		
