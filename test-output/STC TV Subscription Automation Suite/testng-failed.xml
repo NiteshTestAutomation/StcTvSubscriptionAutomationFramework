@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [STC TV Subscription Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Subscription Test Cases(failed)">
+    <classes>
+      <class name="com.stctvsubscription.testcases.SubscriptionTestSuite">
+        <methods>
+          <include name="loadConfigPropertiesFile"/>
+          <include name="openSTCWebApplication"/>
+          <include name="verifyStcTVSubscriptionTypesforKSA"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.stctvsubscription.testcases.SubscriptionTestSuite -->
+    </classes>
+  </test> <!-- Subscription Test Cases(failed) -->
+</suite> <!-- Failed suite [STC TV Subscription Automation Suite] -->

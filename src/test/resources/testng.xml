@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="STC TV Subscription Automation Suite">
+	<listeners>
+		<listener class-name="com.stctvsubscription.listners.ListenerClass"></listener>
+	</listeners>
+  <test thread-count="5" name="Subscription Test Cases">
+    <classes>
+      <class name="com.stctvsubscription.testcases.SubscriptionTestSuite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
