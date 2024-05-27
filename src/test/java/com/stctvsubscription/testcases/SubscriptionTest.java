@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
 
 import com.stctvsubscription.baseClass.BaseClass;
 import com.stctvsubscription.pageObjects.SubscriptionPage;
-import com.stctvsubscription.utils.ExtentReport;
 import com.stctvsubscription.utils.Utilities;
 
 import jdk.internal.org.jline.utils.Log;
@@ -30,7 +29,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SubscriptionTest extends BaseClass{
 
 	public WebDriver driver ;
-	public ExtentReport report;
 	SubscriptionPage subscriptionPage;
 	
 	
@@ -46,6 +44,9 @@ public class SubscriptionTest extends BaseClass{
 	@Test(priority = 1,dataProvider = "ksaSubscriptionTypeTestData")
 	public void verifyStcTVSubscriptionTypesforKSA(String SubscriptionType,String SubcriptionPrice) {
     
+		int a = 200;
+		System.out.print(a);
+		
 		Reporter.log("Changing country to Saudi Arabia from header");
 		subscriptionPage.changeCountryToSaudiArabia();
 		

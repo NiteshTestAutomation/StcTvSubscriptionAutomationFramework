@@ -36,20 +36,14 @@ import com.stctvsubscription.utils.Utilities;
 
 public class BaseClass {
 	
-	public static Logger logger = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
-	
 	WebDriver driver;
 	
 	public Properties property;
 
-
-	
-		
 	public WebDriver setupBrowserAndOpenWebApplication(String browser)
 	{
 		if(driver == null) {
 		if(browser.equalsIgnoreCase("chrome")) {
-	
 			driver = new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
@@ -90,7 +84,7 @@ public class BaseClass {
 	 @AfterTest
 	 public void tearDown()
 	 {
-		//getScreenshot(driver);
+		getScreenshot(driver);
 		driver.quit();
 	 }
 	
@@ -107,13 +101,13 @@ public class BaseClass {
 			
 			File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			
-			String destinationScreenshotPath = System.getProperty("user.dir")+"\\screenshot\\"+"screnshot.png";
+			String destinationScreenshotPath = System.getProperty("user.dir")+"\\screenshot\\"+System.currentTimeMillis()+"screnshot.png";
 		
 			try {
-				FileHandler.copy(screenshot, new File(destinationScreenshotPath));
+				FileHandler.copy(screenshot, new File(System.getProperty("user.dir")+"\\screenshot\\"+System.currentTimeMillis()+"screnshot.png"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
-	   
+
 }
