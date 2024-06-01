@@ -15,7 +15,9 @@ import org.testng.annotations.AfterTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.stctvsubscription.baseClass.BaseClass;
+import com.stctvsubscription.utils.Reporting;
 
 
 public class ListenerClass implements ITestListener	{
@@ -24,10 +26,13 @@ public class ListenerClass implements ITestListener	{
 	ExtentTest extentTest;
 	WebDriver driver;
 	
+	
+	
 	@Override
 	public void onStart(ITestContext context) {
+		extent = Reporting.extentReporting();
+		//extentTest.createNode(context);
 	
-	//	extent =  ExtentReport.generateExtentReport();
 	}
 
 	@Override
@@ -66,7 +71,7 @@ public class ListenerClass implements ITestListener	{
 	@Override
 	public void onFinish(ITestContext context) {
 	
-		//extent.flush();
+		extent.flush();
 		
 	}
 
