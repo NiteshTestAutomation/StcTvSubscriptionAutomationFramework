@@ -8,7 +8,6 @@
           <include name="loadConfigPropertiesFile"/>
           <include name="openSTCWebApplication"/>
           <include name="verifyStcTVSubscriptionTypesforKuwait"/>
-          <include name="takeScreenshot"/>
           <include name="verifyStcTVSubscriptionTypesforKSA"/>
           <include name="verifyStcTVSubscriptionTypesforBahrain"/>
           <include name="tearDown"/>

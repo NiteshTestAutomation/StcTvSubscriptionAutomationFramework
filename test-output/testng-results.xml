@@ -110,20 +110,20 @@
       <![CDATA[Assert Subscription Type<b>: PREMIUM</b> and Subcription Price<b>: 4.8 KWD/month</b> matches testdata]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-01T18:40:45 AST" name="Default suite" finished-at="2024-06-01T18:41:21 AST" duration-ms="35566">
+  <suite started-at="2024-06-26T18:25:22 AST" name="Default suite" finished-at="2024-06-26T18:31:29 AST" duration-ms="366426">
     <groups>
     </groups>
-    <test started-at="2024-06-01T18:40:45 AST" name="Default test" finished-at="2024-06-01T18:41:21 AST" duration-ms="35566">
+    <test started-at="2024-06-26T18:25:22 AST" name="Default test" finished-at="2024-06-26T18:31:29 AST" duration-ms="366426">
       <class name="com.stctvsubscription.testcases.SubscriptionTest">
-        <test-method is-config="true" signature="loadConfigPropertiesFile()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:40:45 AST" name="loadConfigPropertiesFile" finished-at="2024-06-01T18:40:45 AST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="loadConfigPropertiesFile()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:25:22 AST" name="loadConfigPropertiesFile" finished-at="2024-06-26T18:25:22 AST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfigPropertiesFile -->
-        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:40:45 AST" name="openSTCWebApplication" finished-at="2024-06-01T18:40:55 AST" depends-on-methods="com.stctvsubscription.baseClass.BaseClass.loadConfigPropertiesFile" duration-ms="10026" status="PASS">
+        <test-method is-config="true" signature="openSTCWebApplication()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:25:22 AST" name="openSTCWebApplication" finished-at="2024-06-26T18:31:03 AST" depends-on-methods="com.stctvsubscription.baseClass.BaseClass.loadConfigPropertiesFile" duration-ms="340802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openSTCWebApplication -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:40:56 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-01T18:40:59 AST" duration-ms="2479" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:04 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-26T18:31:08 AST" duration-ms="3786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:40:59 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-01T18:41:01 AST" duration-ms="2662" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:08 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-26T18:31:10 AST" duration-ms="2882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +179,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:01 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-01T18:41:03 AST" duration-ms="2265" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKSA(java.lang.String,java.lang.String)[pri:1, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:10 AST" name="verifyStcTVSubscriptionTypesforKSA" data-provider="ksaSubscriptionTypeTestData" finished-at="2024-06-26T18:31:13 AST" duration-ms="2465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +207,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKSA -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:04 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-01T18:41:08 AST" duration-ms="4123" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:13 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-26T18:31:16 AST" duration-ms="2682" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:08 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-01T18:41:10 AST" duration-ms="2232" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:16 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-26T18:31:18 AST" duration-ms="2540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,7 +263,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:10 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-01T18:41:12 AST" duration-ms="2251" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforBahrain(java.lang.String,java.lang.String)[pri:2, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:18 AST" name="verifyStcTVSubscriptionTypesforBahrain" data-provider="bahrainSubscriptionTypeTestData" finished-at="2024-06-26T18:31:21 AST" duration-ms="2665" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -291,7 +291,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforBahrain -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:12 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-01T18:41:16 AST" duration-ms="3746" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:21 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-26T18:31:23 AST" duration-ms="2586" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:16 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-01T18:41:18 AST" duration-ms="2206" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:23 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-26T18:31:26 AST" duration-ms="2525" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:18 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-01T18:41:20 AST" duration-ms="2213" status="PASS">
+        <test-method signature="verifyStcTVSubscriptionTypesforKuwait(java.lang.String,java.lang.String)[pri:3, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:26 AST" name="verifyStcTVSubscriptionTypesforKuwait" data-provider="kuwaitSubscriptionTypeTestData" finished-at="2024-06-26T18:31:28 AST" duration-ms="2466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +375,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyStcTVSubscriptionTypesforKuwait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-01T18:41:20 AST" name="tearDown" finished-at="2024-06-01T18:41:21 AST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stctvsubscription.testcases.SubscriptionTest@24aed80c]" started-at="2024-06-26T18:31:28 AST" name="tearDown" finished-at="2024-06-26T18:31:29 AST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
