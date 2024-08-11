@@ -43,9 +43,6 @@ public class SubscriptionTest extends BaseClass{
 	
 	@Test(priority = 1,dataProvider = "ksaSubscriptionTypeTestData")
 	public void verifyStcTVSubscriptionTypesforKSA(String SubscriptionType,String SubcriptionPrice) {
-    
-		int a = 200;
-		System.out.print(a);
 		
 		Reporter.log("Changing country to Saudi Arabia from header");
 		subscriptionPage.changeCountryToSaudiArabia();
@@ -130,9 +127,11 @@ public class SubscriptionTest extends BaseClass{
 		 case "LITE" : givenPrice = subscriptionPage.viewPrice(SubscriptionType);
 		              	 Assert.assertTrue(ExpectedSubcriptionPrice.equalsIgnoreCase(givenPrice));	               
 			break;
+			
 		 case "CLASSIC": givenPrice = subscriptionPage.viewPrice(SubscriptionType);
 		                 Assert.assertTrue(ExpectedSubcriptionPrice.equalsIgnoreCase(givenPrice));	      
 		    break;
+		    
 		 case "PREMIUM": givenPrice = subscriptionPage.viewPrice(SubscriptionType);
 		                 Assert.assertTrue(ExpectedSubcriptionPrice.equalsIgnoreCase(givenPrice));	      
 		    break;

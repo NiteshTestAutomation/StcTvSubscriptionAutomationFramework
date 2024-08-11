@@ -32,7 +32,6 @@ public class ListenerClass implements ITestListener	{
 	public void onStart(ITestContext context) {
 		extent = Reporting.extentReporting();
 		//extentTest.createNode(context);
-	
 	}
 
 	@Override

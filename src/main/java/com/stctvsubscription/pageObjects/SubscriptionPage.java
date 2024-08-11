@@ -135,5 +135,5 @@ public class SubscriptionPage {
 			currency = partOne.replaceAll("[^a-zA-Z]","");
 			return currency;
 		}
-		
+		  
 }
