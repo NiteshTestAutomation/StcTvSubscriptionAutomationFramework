@@ -122,6 +122,7 @@ public class SubscriptionTest extends BaseClass{
 	public void verifySubscriptionPriceTypes(String SubscriptionType,String ExpectedSubcriptionPrice)
 	{
 		String givenPrice;
+		//Subscription Types 
 		 switch (SubscriptionType){
 
 		 case "LITE" : givenPrice = subscriptionPage.viewPrice(SubscriptionType);

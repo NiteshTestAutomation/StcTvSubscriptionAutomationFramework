@@ -23,7 +23,7 @@ public class SubscriptionPage {
 
 	WebDriver driver;
 	
-	//Page Objects
+	//Element Page Objects
 	
 		@FindBy(xpath="//a[@id='translation-btn']")
 		private WebElement EnglishTranslationBtn ;
@@ -62,7 +62,7 @@ public class SubscriptionPage {
 			
 		}
 		
-		//Page Actions
+		//Page Actions Methods
 		
 		public void changeWebPageLanguage()
 		{
